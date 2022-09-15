@@ -12,7 +12,7 @@ mylowpass=0:T:1-T;
 for t=0.0:T:1-T;
      
     counter2=counter2+1;
-    s(counter2) = sin(2*pi*5*t);
+    s(counter2) = sin(2*pi*50*t);
     
     if counter2==0
         eski_veri=0;
